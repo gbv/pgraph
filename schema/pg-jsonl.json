@@ -25,7 +25,10 @@
           "const": "edge"
         },
         "id": {
-          "$ref": "#/$defs/id"
+          "anyOf": [
+            { "$ref": "#/$defs/id" },
+            { "const": null }
+          ]
         },
         "from": {
           "$ref": "#/$defs/id"

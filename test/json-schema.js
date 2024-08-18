@@ -48,6 +48,7 @@ const invalid = [
 
 const valid = [
   { nodes:[{ id:"x", labels:[], properties:{} }], edges:[] },
+  { nodes:[], edges:[{from:"a",to:"b",id:null,labels:[], properties:{}}] },
 ]
 
 describe("more valid PG-JSON", () => {
