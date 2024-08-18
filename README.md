@@ -542,7 +542,7 @@ format](#cypher-create), so the following should be equivalent:
 Reading from and writing to other graph database systems supporting Cypher and
 Bolt protocol ([Memgraph](https://memgraph.com/), [Kuzú](https://kuzudb.com/),
 [FalkorDB](https://www.falkordb.com/), [TuGraph](https://tugraph.tech/)...) may
-be possible but has not been tested so far.
+be possible but has not been tested so far (Kuzú and TuGraph requires graphs to have a schema).
 
 For larger graphs better export in [CSV format](#csv) to multiple files and
 bulk import the CSV files with `neo4j-admin database import` and these options: 
